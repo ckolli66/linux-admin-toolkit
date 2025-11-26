@@ -25,9 +25,9 @@ LOG_FILE="$LOG_DIR/system_health_$(date +%F).log"
   ps aux --sort=-%cpu | head -n 6
   echo
 
-  echo "[Network interfaces]"
-  ip addr || ifconfig
-  echo
+ # echo "[Network interfaces]"
+ # ip addr || ifconfig
+ # echo
 
   echo "========================================"
   echo

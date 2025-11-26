@@ -92,3 +92,34 @@ root      4241  0.0  0.0   2284  1420 pts/1    S+   05:30   0:00 head -n 6
 
 ========================================
 
+===== System Health Check: Wed Nov 26 06:16:32 IST 2025 =====
+
+[Uptime]
+ 06:16:32 up  1:30,  0 user,  load average: 0.24, 0.17, 0.17
+
+[Disk usage]
+Filesystem            Size  Used Avail Use% Mounted on
+overlay               224G  1.4G  211G   1% /
+tmpfs                  64M     0   64M   0% /dev
+shm                    64M     0   64M   0% /dev/shm
+/run/host_mark/Users  229G  206G   24G  90% /data
+/dev/vda1             224G  1.4G  211G   1% /etc/hosts
+tmpfs                 392M  100K  392M   1% /run/docker.sock
+tmpfs                 2.0G     0  2.0G   0% /proc/scsi
+tmpfs                 2.0G     0  2.0G   0% /sys/firmware
+
+[Memory usage]
+               total        used        free      shared  buff/cache   available
+Mem:            3918         441        3020           0         605        3477
+Swap:           1023           0        1023
+
+[Top 5 CPU-consuming processes]
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      3604  0.0  0.0   4436  3720 pts/1    Ss   05:16   0:00 /bin/bash
+root         1  0.0  0.0   4300  3552 pts/0    Ss+  04:46   0:00 /bin/bash
+root      4250  0.0  0.0   4036  3044 pts/1    S+   06:16   0:00 /usr/bin/bash ./system_health.sh
+root      4257  0.0  0.0   7632  3628 pts/1    R+   06:16   0:00 ps aux --sort=-%cpu
+root      4258  0.0  0.0   2284  1420 pts/1    S+   06:16   0:00 head -n 6
+
+========================================
+
