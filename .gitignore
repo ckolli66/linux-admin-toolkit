@@ -1,0 +1,37 @@
+# Ignore all log files except a sample one (optional)
+logs/*
+!logs/.gitkeep
+
+# Ignore backup archives
+backup/*
+!backup/.gitkeep
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# MacOS junk files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux junk files
+*~
+.cache/
+
+# IDE/editor metadata
+.vscode/
+.idea/
+*.iml
+
+# Shell history (if ever generated)
+*.bash_history
+
+# Python virtualenvs (if created in future)
+venv/
+.env/
+
+# Docker artifacts (if created in future)
+*.tar
+
