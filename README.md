@@ -2,7 +2,7 @@
 
 This project contains a set of bash scripts for:
 - System health monitoring -> [`system_health.sh`](bin/system_health.sh)
-- User management
+- User management -> [`user_manage.sh`](bin/user_manage.sh)
 - Backup and restore
 - Cron-based automation
 
